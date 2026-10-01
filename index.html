@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Valley Farmhouse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h2>🌿 Green Valley</h2>
+    <ul id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#amenities">Amenities</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#booking">Booking</a></li>
+    </ul>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-content">
+    <p>WELCOME TO NATURE</p>
+    <h1>Escape to Our Beautiful Farmhouse</h1>
+    <p>Relax, reconnect and enjoy peaceful moments surrounded by nature.</p>
+    <a href="#booking" class="btn">Book Your Stay</a>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="about">
+    <div>
+      <p class="subtitle">ABOUT US</p>
+      <h2>A Peaceful Stay in the Heart of Nature</h2>
+      <p>
+        Green Valley Farmhouse is a cozy countryside retreat perfect for
+        families, friends and weekend getaways. Enjoy fresh air, greenery,
+        private spaces and beautiful sunsets.
+      </p>
+    </div>
+    <div class="info-card">
+      <h3>🏡 Private Farmhouse</h3>
+      <p>Comfortable rooms with modern facilities.</p>
+      <h3>🌳 Natural Surroundings</h3>
+      <p>Enjoy greenery, fresh air and peaceful views.</p>
+    </div>
+  </div>
+</section>
+
+<section id="amenities" class="section light">
+  <p class="subtitle">OUR AMENITIES</p>
+  <h2>Everything You Need</h2>
+
+  <div class="cards">
+    <div class="card">
+      <span>🏊</span>
+      <h3>Swimming Pool</h3>
+      <p>Private pool for relaxing and having fun.</p>
+    </div>
+    <div class="card">
+      <span>🔥</span>
+      <h3>Campfire</h3>
+      <p>Enjoy memorable evenings around the fire.</p>
+    </div>
+    <div class="card">
+      <span>🍽️</span>
+      <h3>Outdoor Dining</h3>
+      <p>Enjoy delicious meals in a beautiful setting.</p>
+    </div>
+    <div class="card">
+      <span>📶</span>
+      <h3>Free Wi-Fi</h3>
+      <p>Stay connected whenever you need to.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="section">
+  <p class="subtitle">GALLERY</p>
+  <h2>Explore Our Farmhouse</h2>
+
+  <div class="gallery">
+    <div class="gallery-item">🌴<span>Garden</span></div>
+    <div class="gallery-item">🏡<span>Farmhouse</span></div>
+    <div class="gallery-item">🏊<span>Pool</span></div>
+    <div class="gallery-item">🌅<span>Sunset</span></div>
+  </div>
+</section>
+
+<section id="booking" class="booking">
+  <div>
+    <p class="subtitle">PLAN YOUR STAY</p>
+    <h2>Book Your Farmhouse</h2>
+    <p>Fill out the form and we'll get back to you.</p>
+  </div>
+
+  <form id="bookingForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Email Address" required>
+    <input type="date" id="date" required>
+    <input type="number" id="guests" placeholder="Number of Guests" min="1" required>
+    <button type="submit" class="btn">Send Booking Request</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Green Valley Farmhouse. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
